@@ -1,0 +1,61 @@
+[
+  {
+    "id": "base-access",
+    "name": "Base Access",
+    "price": 39,
+    "billingPeriod": "month",
+    "currency": "USD",
+    "description": "Perfect for self-motivated lifters who want high-quality equipment without the extra fuss.",
+    "targetAudience": "The Independent Lifter",
+    "badge": null,
+    "enrollmentFee": 49,
+    "features": [
+      "Unlimited access to the main gym floor (free weights & strength machines)",
+      "Full use of the cardio deck",
+      "Locker room and private shower access",
+      "1 complimentary guest pass per month",
+      "Access during standard hours (5:00 AM – 11:00 PM)",
+      "Standard booking window (3 days in advance)"
+    ]
+  },
+  {
+    "id": "peak-performance",
+    "name": "Peak Performance",
+    "price": 79,
+    "billingPeriod": "month",
+    "currency": "USD",
+    "description": "Our most popular plan. Ideal if you love energy, community, and crushing group fitness goals.",
+    "targetAudience": "The Class Lover",
+    "badge": "Most Popular",
+    "enrollmentFee": 49,
+    "features": [
+      "Includes EVERYTHING in Base Access",
+      "24/7 keycard access to the facility",
+      "Unlimited Group Fitness Classes (HIIT, Yoga, Spin, Strength)",
+      "4 complimentary guest passes per month",
+      "Access to the Recovery Zone (Sauna & Steam room)",
+      "10% discount at the smoothie bar and merchandise shop",
+      "Priority booking window (7 days in advance)"
+    ]
+  },
+  {
+    "id": "elite-results",
+    "name": "Elite Results",
+    "price": 199,
+    "billingPeriod": "month",
+    "currency": "USD",
+    "description": "The ultimate accountability package. Direct coaching and testing to guarantee you hit your targets.",
+    "targetAudience": "The Committed VIP",
+    "badge": "Best Value",
+    "enrollmentFee": 0,
+    "features": [
+      "Includes EVERYTHING in Base & Peak tiers",
+      "4 Small-Group Personal Training sessions per month (Max 4 people per coach)",
+      "Monthly 1-on-1 progress review & customized workout adjustment",
+      "Monthly InBody biometric body composition scanning",
+      "Customized nutritional macro targets updated monthly",
+      "Complimentary gym towel service every visit",
+      "VIP booking window (14 days in advance for classes & trainers)"
+    ]
+  }
+]
