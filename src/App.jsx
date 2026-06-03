@@ -1,6 +1,7 @@
 import { Suspense } from "react"
 import NavBar from "./Components/NavBar/NavBar"
 import PricingOptions from "./Components/Pricing-options/PricingOptions"
+import ResultChart from "./Components/ResultChart/ResultChart";
 
 // Initiates the fetch promise immediately on module load
 const PricingPromise = fetch('/pricing-data.json').then(res => res.json());
@@ -20,6 +21,8 @@ function App() {
         }>
           <PricingOptions PricingPromise={PricingPromise} />
         </Suspense>
+        <ResultChart></ResultChart>
+
       </main>
     </>
   )
